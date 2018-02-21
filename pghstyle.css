@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Playfair+Display+SC');
+
+body{
+    background-color: #000000;
+    color: #ffb81C;
+    font-family: 'Dosis', sans-serif;
+   
+}
+
+h1,h2{
+    color:#ffffff;
+    font-family: 'Playfair Display SC', serif;
+}
+
+a{
+    color:#ffffff;
+}
+
+nav a{
+    color:#000000;
+    padding:1.5em;
+    vertical-align:middle;
+    line-height:3em;
+}
+
+/*Pseudo class
+event or format on a particular tag
+event - user does something */
+
+a:hover{
+    text-decoration:none;
+    font-size:1.2em;
+}
+
+nav{
+    background-color:#ffb81C;
+    height:3em;
+}
+
+/*generic class*/
+.league{
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+}
+
+/*tag level class
+can only be applied to the tag infront on the .
+*/
+
+a.current{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+/* added 11-6-2017
+figure CSS for arenas page */
+figure.arena{
+    float: left;
+    padding:0 1em 1em 0;
+}
+
+/*turn off the float
+float is sticky*/
+h2{
+    clear: both;
+}
+
+li.steeler{
+    list-style-type: circle;
+    list-style-image:url("Images/football_bullet_trans.gif");
+    line-height: 1.5em;/*need for large bullets*/
+}
+
+/*table css*/
+table{
+    border-spacing: 0pt;
+    background-color: #101010;
+}
+/*
+this is a solid header with lines between the td
+td{
+    border-bottom: 2pt solid #ffffff;
+}
+
+th{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+}
+*/
+
+tr.odd{
+    background-color: #a0a0a0;
+}
+
+thead{
+    font-size: 1.25em;
+}
